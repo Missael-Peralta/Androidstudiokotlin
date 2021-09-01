@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/scenery"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:src="@drawable/spider"
+    />
+    
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="I'm Spider-man"
+       android:textSize="25dp"
+       android:textAlignment="center"
+       android:textColor="@color/white"
+   />
+
+   <EditText
+       android:id="@+id/nameText"
+       android:layout_width="match_parent"
+       android:layout_height="100dp"
+       android:hint="@string/main_name"
+       android:textSize="18sp"
+       android:textColorHint="@color/white"
+       android:textColor="@color/white"
+   />
+
+   <EditText
+       android:id="@+id/ageText"
+       android:layout_width="match_parent"
+       android:layout_height="90sp"
+       android:hint="@string/main_age"
+       android:textColorHint="@color/white"
+       android:textColor="@color/white"
+
+   />
+    
+   <Button
+       android:id="@+id/go_button"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="@string/main_Button"
+       android:layout_margin="10dp"
+   />
+    
+
+
+
+</LinearLayout>
